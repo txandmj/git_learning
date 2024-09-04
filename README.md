@@ -4,10 +4,12 @@
 - 电脑上建立文件夹用于存储repository, eg c:/code
 - open git bash
 - command: 
-  - **`cd c`:** 进入c盘
-  - **`cd code`:** 进入c盘下的code （可以输入 ls 查看code内的list)
-  - `git clone https://github.com/txandmj/Learn-python.git` : cd clone [link,github readme.md 右上角code - HTTPS]
-  - **`cd learn-python`**: 进入c盘下的code内的learn-python. 这时可以用pycharm打开readme.md文件进行编辑
+  - `cd c:`  \\进入c盘
+  - `cd code` \\进入c盘下的code （可以输入 ls 查看code内的list)
+  - `git clone https://github.com/txandmj/Learn-python.git` \\git clone [link,github readme.md 右上角code - HTTPS], 会自动新建文件夹
+  - `cd learn-python` \\进入c盘下的code内的learn-python. 这时可以用pycharm打开readme.md文件进行编辑
+  - `git checkout yourBranch` \\切换到你的新branch，不要直接在main branch上提交commit.
+  - 这时可以用pycharm打开readme.md文件进行编辑
 # 从github下载文件到本地机继续编辑
 - 电脑上建立文件夹用于存储repository, eg c:/code
 - open git bash
